@@ -25,7 +25,7 @@ Just a few of my favorite open-source developer tools for a fancier and more use
     + if you want to use a specific version in a particular directory, `pyenv local [some-python-version]`. This will create a hidden file `.python-version` containing the python version you want to use for that directory
   + to list all pyenv commands, just do `pyenv` or `pyenv --help`
   + to list what versions of python you have installed and show the currently set version,`pyenv versions`
-5. `cd && p10k configure` and follow the onscreen wizard
+5. restart your terminal (or open a new window) and do `p10k configure` and follow the onscreen wizard
 6. Enjoy your beautiful new terminal!
 
 ## The UNIX Command Line Interface
