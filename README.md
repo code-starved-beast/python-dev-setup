@@ -10,12 +10,12 @@ Just a few of my favorite open-source developer tools for a fancier and more use
 
 ## You should also download
 
-+ either [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/), the two best text editors out ther
++ either [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/), the two best text editors out there
 + [GitKraken](https://www.gitkraken.com/) if you're not yet comfortable using the git CLI and you don't want to use the built-in git plugins for Atom or VSCode
 
 ## Actual Setup Instructions
 
-1. Download [iTerm2](https://iterm2.com/index.html), a cross-platform, open-source terminal app (it's better than the preinstalls mac terminal app)
+1. Download [iTerm2](https://iterm2.com/index.html), a cross-platform, open-source terminal app (it's better than the preinstalled mac terminal app)
 2. Clone this repo with `git clone https://github.com/code-starved-beast/python-dev-setup.git`
 3. `sh python-dev-setup/setup_env.sh`
 4. Use `pyenv` to set the python version you want globally. Check which version you have version with `python --version`. If it's the right version, you can  feel free to skip this step. Otherwise,
@@ -41,19 +41,19 @@ A valid CLI expression consists of a command followed by a set of arguments, whi
 Here are some important commands you should know:
 + `ls`, used to list the contents of a directory
   + hidden files and directories are prefixed with `.`; to display these as well, use `ls -a`
-  + `ls` on its own will list the contents of the current working directory. You can also do `ls /path/to/some/other/directory` to list the contents of a diffent directory
-+ `open -a "[application-name]" [file-to-open]`
+  + `ls` on its own will list the contents of the current working directory. You can also do `ls path/to/some/other/directory` to list the contents of a different directory
++ `open -a "[application-name]" file/to/open`
   + e.g. `open -a Atom my_script.py`
 + `pwd`, which displays the full path from the root to the current working directory
 + `cd`, used to change directory
   + `cd ../some/other/directory` to go to the parent directory and then some other directory within the parent
   + `cd directory/in/this/directory` to go to a directory in this current directory
   + `cd /some/directory/from/root` to go into a directory with an absolute path (probably won't need to do this much)
-+ `rm [path/to/file/to/delete]` to delete a file
-  + `rm -rf [directory-to-delete]` to delete a directory and its contents
-+ `mkdir [path/to/new/directory]` to create a new directory
-+ `touch [path/to/new/file]` to create a new file
-+ `which [some-command]` to show the absolute path to the executable being used for a particular command
++ `rm path/to/file/to/delete` to delete a file
+  + `rm -rf directory-to-delete` to delete a directory and its contents
++ `mkdir path/to/new/directory` to create a new directory
++ `touch path/to/new/file` to create a new file
++ `which some-command` to show the absolute path to the executable being used for a particular command
 + (optional) `git`, a branch management tool
 
 ## Python Learning Resources
