@@ -50,7 +50,7 @@ Here are some important commands you should know:
   + `cd directory/in/this/directory` to go to a directory in this current directory
   + `cd /some/directory/from/root` to go into a directory with an absolute path (probably won't need to do this much)
 + `rm path/to/file/to/delete` to delete a file
-  + `rm -rf directory-to-delete` to delete a directory and its contents
+  + `rm -rf directory/to/delete` to delete a directory and its contents
 + `mkdir path/to/new/directory` to create a new directory
 + `touch path/to/new/file` to create a new file
 + `which some-command` to show the absolute path to the executable being used for a particular command
